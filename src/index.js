@@ -40,13 +40,9 @@ app({
         link({ href: "https://github.com/hyperapp/hyperapp/tree/master/src" }, [
           span("READ THE CODE")
         ]),
-        link(
-          {
-            href:
-              "https://github.com/hyperapp/hyperapp/blob/master/docs/README.md#documentation"
-          },
-          [span("READ THE DOCS")]
-        )
+        link({ href: "https://github.com/hyperapp/hyperapp/blob/master/README.md" }, [
+          span("READ THE DOCS")
+        ])
       ])
     ])
 })
